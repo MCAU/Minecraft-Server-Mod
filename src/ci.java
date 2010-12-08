@@ -39,7 +39,9 @@ public class ci {
         if ((Boolean) etc.getLoader().callHook(PluginLoader.Hook.EXPLODE, block)) {
             return;
         }
-
+        
+        //TNT nerf
+		/*
         float f1 = this.f;
 
         int j = 16;
@@ -146,7 +148,7 @@ public class ci {
                     this.i.d(i6, i7, i8, gc.ar.bh);
                 }
             }
-        }
+        }*/
     }
 
     public void b() {

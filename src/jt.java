@@ -59,11 +59,13 @@ public class jt extends gc {
         }
 
         // hMod: cast ep tofix decompiler error.
+        //Fire nerf
+        /*
         if ((i == 0) && (!b((iv)parameq, paramInt1, paramInt2 - 1, paramInt3)) && (j == 15) && (paramRandom.nextInt(4) == 0)) {
             parameq.d(paramInt1, paramInt2, paramInt3, 0);
             return;
         }
-
+		*/
         if ((j % 2 == 0) && (j > 2)) {
             a(parameq, paramInt1 + 1, paramInt2, paramInt3, 300, paramRandom);
             a(parameq, paramInt1 - 1, paramInt2, paramInt3, 300, paramRandom);
@@ -121,6 +123,7 @@ public class jt extends gc {
 
     private boolean g(eq parameq, int paramInt1, int paramInt2, int paramInt3) {
         // hMod: cast down to fix decompiler error.(6 times)
+        /*
         if (b((iv) parameq, paramInt1 + 1, paramInt2, paramInt3)) {
             return true;
         }
@@ -137,6 +140,8 @@ public class jt extends gc {
             return true;
         }
         return b((iv) parameq, paramInt1, paramInt2, paramInt3 + 1);
+        */
+        return false;
     }
 
     private int h(eq parameq, int paramInt1, int paramInt2, int paramInt3) {

@@ -5,9 +5,11 @@ public class z extends db {
         super(paramInt, paramjy);
 
         a(false);
+        //lava nerf
         if (paramjy == jy.g) {
-            a(true);
+        	return;
         }
+        a(true);
     }
 
     @Override
